@@ -4,11 +4,17 @@ body {
     color: white;
 }
 
-#result {
-  display: none;
+.panel {
+  color: black;
+  opacity: 0.5;
+  padding-left: 20px;
 }
 
-.panel {
+.panel h2 {
+  margin-top: 10px;
+}
+
+#result {
   display: none;
 }
 
@@ -28,4 +34,16 @@ body {
 .jumbotron {
   padding-top: 0px;
   padding-bottom: 0px;
+}
+
+.glyphicon {
+  padding-right: 10px;
+}
+
+.form-control {
+  opacity: 0.75;
+}
+
+.input-group-addon {
+  opacity: 0.95;
 }

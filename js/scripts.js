@@ -3,11 +3,11 @@ $(document).ready(function() {
   $("#add-detail").click(function() {
     $("#new-details").append('<div class="form-group">' + '<div class="new-detail input-group input-group-lg">' +
       '<span class="input-group-addon" id="sizing-addon1">Landmark</span>' +
-      '<input type="text" id="input-landmark" class="form-control" placeholder="Waterfall" aria-describedby="sizing-addon1">' +
+      '<input type="text" class="form-control input-landmark" placeholder="Waterfall" aria-describedby="sizing-addon1">' +
       '<span class="input-group-addon" id="sizing-addon1">Date</span>' +
-      '<input type="text" id="input-date" class="form-control" placeholder="Someday" aria-describedby="sizing-addon1">' +
+      '<input type="text" class="form-control input-date" placeholder="Someday" aria-describedby="sizing-addon1">' +
       '<span class="input-group-addon" id="sizing-addon1">Notes</span>' +
-      '<input type="text" id="input-notes" class="form-control" placeholder="Awesome" aria-describedby="sizing-addon1">' +
+      '<input type="text" class="form-control input-notes" placeholder="Awesome" aria-describedby="sizing-addon1">' +
     '</div>' + '</div>');
   });
 
@@ -48,11 +48,11 @@ $(document).ready(function() {
     $("#new-details").empty();
     $("#new-details").append('<div class="form-group">' + '<div class="new-detail input-group input-group-lg">' +
       '<span class="input-group-addon" id="sizing-addon1">Landmark</span>' +
-      '<input type="text" id="input-landmark" class="form-control" placeholder="Waterfall" aria-describedby="sizing-addon1">' +
+      '<input type="text" class="form-control input-landmark" placeholder="Waterfall" aria-describedby="sizing-addon1">' +
       '<span class="input-group-addon" id="sizing-addon1">Date</span>' +
-      '<input type="text" id="input-date" class="form-control" placeholder="Someday" aria-describedby="sizing-addon1">' +
+      '<input type="text" class="form-control input-date" placeholder="Someday" aria-describedby="sizing-addon1">' +
       '<span class="input-group-addon" id="sizing-addon1">Notes</span>' +
-      '<input type="text" id="input-notes" class="form-control" placeholder="Awesome" aria-describedby="sizing-addon1">' +
+      '<input type="text" class="form-control input-notes" placeholder="Awesome" aria-describedby="sizing-addon1">' +
     '</div>' + '</div>');
   });
 

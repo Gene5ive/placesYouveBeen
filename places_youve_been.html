@@ -7,60 +7,59 @@
        <script src="js/scripts.js"></script>
   </head>
   <body>
-    <!-- <div class="jumbotron"> -->
-      <div class="container">
-        <h1>Places You've Been</h1>
-        <p class="lead">Insert a location, a landmark, a date, and some travel notes to add as a place.<br></p>
-        <form id="new-place">
-          <div class="form-group">
-
-            <div class="input-group input-group-lg">
-              <span class="input-group-addon" id="sizing-addon1">Location</span>
-              <input type="text" id="input-location" class="form-control" placeholder="Hawaii" aria-describedby="sizing-addon1">
-            </div>
-
-          </div>
-          <div class="form-group">
-            <div id="new-details">
-              <div class="form-group">
-                <div class="new-detail input-group input-group-lg">
-                  <span class="input-group-addon" id="sizing-addon1">Landmark</span>
-                  <input type="text" id="input-landmark" class="form-control" placeholder="Waterfall" aria-describedby="sizing-addon1">
-
-                  <span class="input-group-addon" id="sizing-addon1">Date</span>
-                  <input type="text" id="input-date" class="form-control" placeholder="Someday" aria-describedby="sizing-addon1">
-
-                  <span class="input-group-addon" id="sizing-addon1">Notes</span>
-                  <input type="text" id="input-notes" class="form-control" placeholder="Awesome" aria-describedby="sizing-addon1">
-                 </div>
-             </div>
-            </div>
-          </div>
-          <div id="result">
-            <div class="alert alert-info"><p><b>Result:</b> <em><span class="output"></span></em> </p></div>
-          </div>
-          <span class="btn btn-lg btn-primary" id="add-detail">Another detail</span>
-          <button type="submit" class="btn btn-lg btn-success">Submit</button>
-        </div>
-      </form>
-    <!-- </div> -->
-
     <div class="container">
 
-      <div id="show-place">
-        <h2></h2>
-        <p>Location: <span class="location"></span></p>
-        <p>Details:</p>
-        <ul id="details">
+      <br>
 
-        </ul>
+      <p class="lead">Insert a location, a landmark, a date, and some travel notes to add as a place.<br></p>
+      <form id="new-place">
+        <div class="form-group">
+
+          <div class="input-group input-group-lg">
+            <span class="input-group-addon" id="sizing-addon1">Location</span>
+            <input type="text" id="input-location" class="form-control" placeholder="Hawaii" aria-describedby="sizing-addon1">
+          </div>
+
+        </div>
+        <div class="form-group">
+          <div id="new-details">
+            <div class="form-group">
+              <div class="new-detail input-group input-group-lg">
+                <span class="input-group-addon" id="sizing-addon1">Landmark</span>
+                <input type="text" class="form-control input-landmark" placeholder="Volcano" aria-describedby="sizing-addon1">
+
+                <span class="input-group-addon" id="sizing-addon1">Date</span>
+                <input type="text" class="form-control input-date" placeholder="1991" aria-describedby="sizing-addon1">
+
+                <span class="input-group-addon" id="sizing-addon1">Notes</span>
+                <input type="text" class="form-control input-notes" placeholder="It was very hot." aria-describedby="sizing-addon1">
+               </div>
+           </div>
+          </div>
+        </div>
+        <div id="result">
+          <div class="alert alert-info"><p><b>Result:</b> <em><span class="output"></span></em> </p></div>
+        </div>
+        <span class="btn btn-lg btn-primary" id="add-detail">Another detail</span>
+        <button type="submit" class="btn btn-lg btn-success">Submit</button>
+
+        <div class="panel-body">
+          <div class="panel panel-transparent">
+            <div id="show-place">
+              <h2></h2>
+              <p>Location: <span class="location"></span></p>
+              <p>Details:</p>
+              <ul id="details">
+              </ul>
+            </div>
+            <h2>Places:</h2>
+            <ul id="places">
+            </ul>
+          </div>
+        </div>
+
       </div>
-
-      <h2>Places:</h2>
-      <ul id="places">
-
-      </ul>
-    </div>
+    </form>
 
   </body>
 </html>
