@@ -1,20 +1,14 @@
 $(document).ready(function() {
 
   $("#add-detail").click(function() {
-    $("#new-details").append('<div class="new-detail">' +
-                                 '<div class="form-group">' +
-                                   '<label for="input-landmark">Landmark:</label>' +
-                                   '<input type="text" class="form-control input-landmark">' +
-                                 '</div>' +
-                                 '<div class="form-group">' +
-                                   '<label for="input-date">Date:</label>' +
-                                   '<input type="text" class="form-control input-date">' +
-                                 '</div>' +
-                                 '<div class="form-group">' +
-                                   '<label for="input-notes">Notes:</label>' +
-                                   '<input type="text" class="form-control input-notes">' +
-                                 '</div>' +
-                               '</div>');
+    $("#new-details").append('<div class="form-group">' + '<div class="new-detail input-group input-group-lg">' +
+      '<span class="input-group-addon" id="sizing-addon1">Landmark</span>' +
+      '<input type="text" id="input-landmark" class="form-control" placeholder="Waterfall" aria-describedby="sizing-addon1">' +
+      '<span class="input-group-addon" id="sizing-addon1">Date</span>' +
+      '<input type="text" id="input-date" class="form-control" placeholder="Someday" aria-describedby="sizing-addon1">' +
+      '<span class="input-group-addon" id="sizing-addon1">Notes</span>' +
+      '<input type="text" id="input-notes" class="form-control" placeholder="Awesome" aria-describedby="sizing-addon1">' +
+    '</div>' + '</div>');
   });
 
   $("form#new-place").submit(function (event) {
@@ -52,20 +46,14 @@ $(document).ready(function() {
     $("input.input-notes").val("");
 
     $("#new-details").empty();
-    $("#new-details").append('<div class="new-detail">' +
-                                 '<div class="form-group">' +
-                                   '<label for="input-landmark">Landmark:</label>' +
-                                   '<input type="text" class="form-control input-landmark">' +
-                                 '</div>' +
-                                 '<div class="form-group">' +
-                                   '<label for="input-date">Date:</label>' +
-                                   '<input type="text" class="form-control input-date">' +
-                                 '</div>' +
-                                 '<div class="form-group">' +
-                                   '<label for="input-notes">Notes:</label>' +
-                                   '<input type="text" class="form-control input-notes">' +
-                                 '</div>' +
-                               '</div>');
+    $("#new-details").append('<div class="form-group">' + '<div class="new-detail input-group input-group-lg">' +
+      '<span class="input-group-addon" id="sizing-addon1">Landmark</span>' +
+      '<input type="text" id="input-landmark" class="form-control" placeholder="Waterfall" aria-describedby="sizing-addon1">' +
+      '<span class="input-group-addon" id="sizing-addon1">Date</span>' +
+      '<input type="text" id="input-date" class="form-control" placeholder="Someday" aria-describedby="sizing-addon1">' +
+      '<span class="input-group-addon" id="sizing-addon1">Notes</span>' +
+      '<input type="text" id="input-notes" class="form-control" placeholder="Awesome" aria-describedby="sizing-addon1">' +
+    '</div>' + '</div>');
   });
 
 });

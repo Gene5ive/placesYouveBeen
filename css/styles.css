@@ -1,6 +1,7 @@
 body {
-    /*background-image: url("http://upload.wikimedia.org/wikipedia/commons/8/83/Address_Book_of_Watergate_Burglar_Bernard_Barker,_Discovered_in_a_Room_at_the_Watergate_Hotel,_June_18,_1972_-_NARA_-_304966.jpg");*/
+    background-image: url("https://f1.bcbits.com/img/a1078065926_10.jpg");
     background-size: cover;
+    color: white;
 }
 
 #result {
@@ -22,4 +23,9 @@ body {
 
 .place:hover {
   text-decoration: underline;
+}
+
+.jumbotron {
+  padding-top: 0px;
+  padding-bottom: 0px;
 }
