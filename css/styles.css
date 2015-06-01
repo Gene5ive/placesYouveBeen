@@ -1,0 +1,25 @@
+body {
+    /*background-image: url("http://upload.wikimedia.org/wikipedia/commons/8/83/Address_Book_of_Watergate_Burglar_Bernard_Barker,_Discovered_in_a_Room_at_the_Watergate_Hotel,_June_18,_1972_-_NARA_-_304966.jpg");*/
+    background-size: cover;
+}
+
+#result {
+  display: none;
+}
+
+.panel {
+  display: none;
+}
+
+#show-place {
+  display: none;
+}
+
+.place {
+  cursor: pointer;
+  color: #0088cc;
+}
+
+.place:hover {
+  text-decoration: underline;
+}

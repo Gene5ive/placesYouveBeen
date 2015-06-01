@@ -1,0 +1,58 @@
+<html>
+  <head>
+    <title>Places You've Been</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" type="text/css">
+       <link rel="stylesheet" href="./css/styles.css" type="text/css">
+       <script src="js/jquery-1.11.3.js"></script>
+       <script src="js/scripts.js"></script>
+  </head>
+  <body>
+    <div class="jumbotron">
+      <div class="container">
+        <h1>Places You've Been</h1>
+        <p class="lead">Insert a location, a landmark, a date, and some travel notes to add as a place.<br></p>
+        <form id="new-place">
+          <div class="form-group">
+            <label for="input-location"><b>Location:</b></label>
+            <input id="input-location" type="text">
+          </div>
+          <div class="form-group">
+            <div id="new-details">
+              <div class="new-detail">
+                <label for="input-landmark"><b>Landmark:</b></label>
+                <input class="form-control input-landmark" type="text">
+                <label for="input-date"><b>Date:</b></label>
+                <input class="form-control input-date" type="text">
+                <label for="input-notes"><b>Notes:</b></label>
+                <input class="form-control input-notes" type="text">
+              </div>
+            </div>
+          </div>
+          <div id="result">
+            <div class="alert alert-info"><p><b>Result:</b> <em><span class="output"></span></em> </p></div>
+          </div>
+          <span class="btn btn-lg btn-primary" id="add-detail">Another detail</span>
+          <button type="submit" class="btn btn-lg btn-success">Submit</button>
+        </div>
+      </form>
+    </div>
+
+    <div class="container">
+
+      <div id="show-place">
+        <h2></h2>
+        <p>Location: <span class="location"></span></p>
+        <p>Details:</p>
+        <ul id="details">
+
+        </ul>
+      </div>
+
+      <h2>Places:</h2>
+      <ul id="places">
+
+      </ul>
+    </div>
+
+  </body>
+</html>
